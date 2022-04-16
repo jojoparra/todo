@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,10 +13,11 @@
 </head>
 
 <body>
-    <button>Press me</button>
-    <div>Get groceries</div>
-    <div>Wash car</div>
-    <div>Make dinner</div>
+    <input id="todo-title" type="text" />
+    <input id="date-picker" type="date" />
+    <button onclick="addTodo()">Add Todo</button>
+
+    <div id="todo-list"></div>
 
     <script src="index.js"></script>
 </body>
